@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 export default function NewsList({ data }) {
-  console.log(data);
   return (
     <Container>
       <Row xs={1} md={2} lg={3} className="justify-content-center">
