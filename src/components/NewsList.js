@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function NewsList({ data }) {
   return (
-    <Container>
+    <Container className='mt-3'>
       <Row xs={1} md={2} lg={3} className="justify-content-center">
       {data.map((newsItem, index) => {
         return (<Col key={index} >
