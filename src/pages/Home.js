@@ -25,6 +25,6 @@ export default function Home() {
   }, []);
 
   return (
-    <NewsList data={data} />
+      <NewsList data={data} />
   );
 }
